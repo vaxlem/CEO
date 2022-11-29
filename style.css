@@ -350,5 +350,19 @@
   .card-content {
     margin: 20px;
   }
-  
+  .picture{
+    background-color: blue;
+    width: 700px;
+    height: 600px;
+    position: fixed;
+    left: 500px;
+    top: 180px;
+  }
+  img{
+    width:700px ;
+    height: 600px;
+    display: inline-block;
+    right: 50px;
+    margin: 0 auto 0 auto;
+  }
   
