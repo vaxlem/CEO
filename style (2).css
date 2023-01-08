@@ -41,3 +41,21 @@ nav-logo{
     background-color: black;
     width: 100%;
 }
+
+/* TABLET */
+@media screen and (max-width: 1536px) {
+    .nav-links {
+      width: 75%;
+      margin-left: 10px;
+    }
+  }
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    /* body {
+      display: none;
+    } */
+  
+    body {
+      overflow-x: hidden;
+    }
