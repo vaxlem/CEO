@@ -7,13 +7,21 @@ body{
 .va{
     display: inline-block;
     position: relative;
-    left: 4rem;
+    right: 2rem;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 10rem;
+    padding-left: 5rem;
+    margin: 0rem;
+}
+.x{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem;
+    margin-right: 10rem;
 }
 img{
-    width: 700px;
-    height: 467px;
+    width: 540px;
+    height: 427px;
 }
 td{
     text-align: center;
