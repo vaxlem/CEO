@@ -11,7 +11,11 @@ body{
     text-align: center;
     padding-top: 1rem;
     padding-left: 5rem;
-    margin: 0rem;
+    margin: 4rem auto;
+
+}
+#ml-auto{
+    margin-top: 4rem auto;
 }
 .x{
     display: flex;

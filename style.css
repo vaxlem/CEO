@@ -278,6 +278,7 @@
     background-color: rgb(192, 230, 240);
     /* transform: scale(1.5); */
     transition: transform 0.5s ease-in;
+    
   }
   
   .about {
@@ -338,6 +339,7 @@
   
   .cards li:hover img {
     transform: scale(1.5);
+
   }
   .cards li:hover h4 {
     margin-top: 50px;
