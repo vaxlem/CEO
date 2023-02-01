@@ -7,15 +7,30 @@ body{
 .va{
     display: inline-block;
     position: relative;
-    right: 2rem;
+    right: 3rem;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1.8rem;
     padding-left: 5rem;
-    margin: 4rem auto;
+    margin: auto;
 
 }
+.fren-fontsize{
+    font-size:large;
+}
+
+
+.font {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; align-content: center;}
+
+
 #ml-auto{
     margin-top: 4rem auto;
+}
+
+#contact {
+    background-color: rgba(255, 0, 0, 0.582);
+    height: 10rem;
+    text-align: center;
+
 }
 .x{
     display: flex;
@@ -23,6 +38,9 @@ body{
     padding: 0rem;
     margin-right: 10rem;
 }
+
+
+
 img{
     width: 540px;
     height: 427px;
@@ -76,3 +94,9 @@ nav-logo{
     body {
       overflow-x: hidden;
     }
+
+    /* <div class="container-sm">100% wide until small breakpoint</div>
+<div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div> */
