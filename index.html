@@ -38,32 +38,217 @@ body {
 }
 
 .main {
-  margin-left: 220px; /* Same as the width of the sidenav */
+  margin-left: 239px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px;
+  width: 67rem;
 }
-/* #contact {
-background-color: rgba(255, 0, 0, 0.582);
-height: 10rem;
-text-align: center;
-} */
 #contact {
 background-color: rgba(255, 0, 0, 0.582);
-height: 10rem;
-text-align: center;}
+height: 6rem;
+text-align:end;
+color: #6b65ae7c;
+}
+h1{
+  font-size:larger;
+}
 h2{
   padding-left: 2rem;
+
 }
-@media screen and (min-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+          .container {background: rgba(255, 0, 0, 0.487);
+          /* padding-left:10rem ; */
+          /* width: 130rem; */
+        }
+          .va.img{
+          width: 5rem;
+          align-self: center;
+          font-size: 1rem;
+          padding: 1.5 1; 
+          position: relative;
+          left:19rem;
+        }
+
+        h1{
+        font-size:small;
+        }
+
+        /* #valeft{
+          position:absolute;
+          left: 10rem;
+        } */
+/* h2{
+  padding-left: 2rem;} */
+        h2 {
+          padding: 0.5rem 0rem 0rem 11rem;
+          font-size: smaller;
+        }
+
+        .main {
+          /* margin-left: 4px;  */
+          /* Same as the width of the sidenav */
+          margin-left: 160px;
+          font-size: 15px; /* Increased text to enable scrolling */
+          padding-left: 10px;
+          /* width: 69rem; */
+          width: 69rem;
+        }
+          .sidenav {
+          height: 100%;
+          width: 160px;
+          position: fixed;
+        }
+
+        #sidnv a {font-size: 12px;}
+
+        .img{
+            width: 6rem;
+            height: 4rem;
+            padding: 0px;
+            } 
+            td{
+              font-size:small;
+            }
+            
+        
+        .sidenav a {
+            padding: 3px 4px 3px 8px;
+            text-decoration: none;
+            font-size: 10px;
+            color: #818181;
+            display: block;
+        }
+        }
+
+        
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+          .container {background: green;}
+          
+          .h{
+          width: 33.1%;
+          align-self: center;
+          /* font-size:50%; */
+          
+        }
+        img{
+          width: 33.1%;
+          height: 33.1%;
+         
+        }4gt
+        /* .col-4{
+            padding: 0px;
+            margin: 0px;
+          width: 33.1%;
+        } */
+        }
+        img{width: 100%;
+            }
+            kkkkkkkk
+          }
+          .va.img{
+          width: 5rem;
+          align-self: center;
+          font-size: 1rem;
+          padding: 1.5 1; 
+          position: relative;
+          left:19rem;
+        }
+
+        h1{
+        font-size:small;
+        }
+
+        /* #valeft{
+          position:absolute;
+          left: 10rem;
+        } */
+/* h2{
+  padding-left: 2rem;} */
+        h2 {
+          padding: 0.5rem 0rem 0rem 11rem;
+          font-size: smaller;
+        }
+
+        .main {
+          /* margin-left: 4px;  */
+          /* Same as the width of the sidenav */
+          margin-left: 160px;
+          font-size: 15px; /* Increased text to enable scrolling */
+          padding-left: 10px;
+          /* width: 69rem; */
+          width: 69rem;
+        }
+          .sidenav {
+          height: 100%;
+          width: 160px;
+          position: fixed;
+        }
+
+        #sidnv a {font-size: 12px;}
+
+        .img{
+            width: 6rem;
+            height: 4rem;
+            padding: 0px;
+            } 
+            td{
+              font-size:small;
+            }
+            
+        
+        .sidenav a {
+            padding: 3px 4px 3px 8px;
+            text-decoration: none;
+            font-size: 10px;
+            color: #818181;
+            display: block;
+        }
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+          .container {background: blue;}
+
+          
+        } 
+        
+        
+        
+
+            
+        
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+          .container {background: orange;}
+          img{width: 100%;
+            }
+            .sidenav a {
+            padding: 3px 4px 3px 8px;
+            text-decoration: none;
+            font-size: 5px;
+            color: #818181;
+            display: block;
 }
+        } 
+        
+        
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+          .container {background: pink;}
+        img{width: 100%;
+            }
+        }
+        @media screen and (min-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+          
+      }
 </style>
 </head>
 <body>
 
-<div class="sidenav">
+<div class="sidenav" id="sidnv">
   <a href="#about">About</a>
   <a href="./english.html">English</a>
   <a href="./content.html">French</a>
@@ -91,80 +276,80 @@ h2{
     <br>
 </div>
 
-<div class="main">
+<div class="main container">
   <h2>vaXLem EWE to ENGLISH & <span style="color: rgb(145, 13, 84);"> FRENCH</span></h2>
 <hr>
-  <div class="va">
+  <div class="va" id="valeft">
 
     <table>
         <tbody>
         <tr>
-            <td>ewe language</td>
+            <td> ewe language</td>
             <td>picture</td>
-            <td>english/ <br><span style="color: rgb(145, 13, 84);"> FRENCH</span></td>
+            <td>english <br><span style="color: rgb(145, 13, 84);"> FRENCH</span></td>
         </tr>
         <tr>
-            <td style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; align-content: center;"><h1>gbor</h1> </td>
-            <td><img src="images/bongo.jpeg" alt="bongo"></td>
-            <td> <h1>GOAT 
+            <td class="va" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; align-content: center;"><h1>gbor</h1> </td>
+            <td class="#"><img class="img" src="images/bongo.jpeg" alt="bongo"></td>
+            <td class="va"> <h1>GOAT 
                 <br>
                 <span class="fren-fontsize" > chèvre(feminine)
                 <br> bouc(masculine)</span>
                 </h1></td>
         </tr>
         <tr>
-            <td style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>akoru</h1> </td>
-            <td><img src="./images/bananan.jpg" alt="bongo"></td>
-            <td><h1>BANANA <br>
+            <td  class="va" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>akoru</h1> </td>
+            <td><img class="img" src="./images/bananan.jpg" alt="bongo"></td>
+            <td class="va"><h1>BANANA <br>
               <span class="fren-fontsize" >Banana</span>
                 </h1></td>
         </tr>
         <tr>
-            <td style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>nortsi</h1> </td>
-            <td><img src="./images/NOSE.jpg" alt="bongo"></td>
-            <td><h1>NOSE  <br>
+            <td class="va" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>nortsi</h1> </td>
+            <td><img class="img" src="./images/NOSE.jpg" alt="bongo"></td>
+            <td  class="va"><h1>NOSE  <br>
                 <span class="fren-fontsize" >le nez</span>
                 </h1></td>
         </tr>
         <tr>
-            <td style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>anti</h1></td>
-            <td><img src="./images/ORANGE.jpg" alt="bongo"></td>
-            <td><h1>ORANGE  <br>
+            <td class="va" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>anti</h1></td>
+            <td><img class="img" src="./images/ORANGE.jpg" alt="bongo"></td>
+            <td class="va"><h1>ORANGE  <br>
                <span class="fren-fontsize" > l' orange</span>
                 </h1></td>
         </tr>
         <tr>
-            <td style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>nku</h1> </td>
-            <td><img src="./images/EYE.jpg" alt="bongo"></td>
-            <td><h1> 	EYE  <br>
+            <td class="va" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>nku</h1> </td>
+            <td><img class="img" src="./images/EYE.jpg" alt="bongo"></td>
+            <td class="va"><h1> 	EYE  <br>
                <span class="fren-fontsize" > l' œil</span>
                 </h1></td>
         </tr>
         <tr>
-            <td style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>ayira </h1></td>
-            <td><img src="./images/comb1.jpg" alt="bongo"></td>
-            <td><h1>COMB  <br>
+            <td class="va" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>ayira </h1></td>
+            <td><img class="img" src="./images/comb1.jpg" alt="bongo"></td>
+            <td class="va"><h1>COMB  <br>
                 <span class="fren-fontsize" >le peigne</span>
                 </h1></td>
         </tr>
         <tr>
-            <td style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>aforkpodzi</h1> </td>
-            <td><img src="./images/HEEL.jpg" alt="bongo"></td>
-            <td><h1>HEEL  <br>
+            <td class="va" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>aforkpodzi</h1> </td>
+            <td><img class="img" src="./images/HEEL.jpg" alt="bongo"></td>
+            <td class="va"><h1>HEEL  <br>
               <span class="fren-fontsize" >le talon
               </span></h1></td>
         </tr>
         <tr>
-            <td style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>ariba</h1> </td>
-            <td><img src="./images/PAWPAW.jpg" alt="bongo"></td>
-            <td><h1>PAWPAW  <br>
+            <td class="va" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>ariba</h1> </td>
+            <td><img class="img" src="./images/PAWPAW.jpg" alt="bongo"></td>
+            <td class="va"><h1>PAWPAW  <br>
               <span class="fren-fontsize" >Papaya</span>
                 </h1></td>
         </tr> 
         <tr>
-            <td style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>ahornoe</h1> </td>
-            <td><img src="./images/DOVE.jpg" alt="bongo" id="dove"></td>
-            <td><h1> DOVE  <br>
+            <td class="va" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><h1>ahornoe</h1> </td>
+            <td><img class="img" src="./images/DOVE.jpg" alt="bongo" id="dove"></td>
+            <td class="va"><h1> DOVE  <br>
                <span class="fren-fontsize" > pigeon(feminine) <br>
                 Colombe(masculine)</span>
                 
